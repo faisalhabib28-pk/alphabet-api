@@ -1,2 +1,10 @@
+   [project]
+   name = "alphabet-api"
+   version = "1.0.0"
+   requires-python = ">=3.12"
+   dependencies = [
+       "numpy"
+   ]
+
    [tool.vercel]
    entrypoint = "api.predict:handler"
